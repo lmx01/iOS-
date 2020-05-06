@@ -183,8 +183,7 @@
 <p>&#x5C0F;&#x9A6C;&#x54E5;&#x89C6;&#x9891;&#x6559;&#x6750;&#xFF1A;
 <a href="https://www.bilibili.com/video/BV1qJ411B7G3?from=search&amp;seid=5618679441091610999" target="_blank">https://www.bilibili.com/video/BV1qJ411B7G3?from=search&amp;seid=5618679441091610999</a></p>
 <ol>
-<li>&#x5B9A;&#x4E49;&#x53D8;&#x91CF;</li>
-</ol>
+<li><p>&#x5B9A;&#x4E49;&#x53D8;&#x91CF;</p>
 <pre><code class="lang-swift"><span class="hljs-comment">// &#x683C;&#x5F0F;&#xFF1A;let/var &#x6807;&#x8BC6;&#x7B26;&#x540D;&#x79F0; &#xFF1A; &#x6807;&#x8BC6;&#x7B26;&#x7C7B;&#x578B; = &#x8D4B;&#x503C;</span>
 <span class="hljs-comment">// let&#x5E38;&#x91CF;</span>
 <span class="hljs-comment">// var&#x53D8;&#x91CF;</span>
@@ -200,7 +199,50 @@
 view.alpha = <span class="hljs-number">0.5</span>
 view.backgroundColor = <span class="hljs-type">UIColor</span>.blue
 </code></pre>
-<p>(&#x5B66;&#x5230;P34)</p>
+</li>
+<li><p>&#x6570;&#x636E;&#x7C7B;&#x578B;</p>
+</li>
+<li><p>&#x7C7B;&#x578B;&#x63A8;&#x5BFC;
+&#x5F3A;&#x7C7B;&#x578B;&#x8BED;&#x8A00;</p>
+<pre><code class="lang-swift"><span class="hljs-comment">// &#x5B9A;&#x4E49;&#x6807;&#x8BC6;&#x7B26;&#x65F6;&#xFF0C;&#x6709;&#x76F4;&#x63A5;&#x8D4B;&#x503C;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x540E;&#x9762;&#x7684;&#x7C7B;&#x578B;&#x7701;&#x7565;&#x6389;</span>
+<span class="hljs-comment">// &#x901A;&#x8FC7;option + &#x9F20;&#x6807;&#x5DE6;&#x952E; &#x6765;&#x67E5;&#x770B;&#x6807;&#x8BC6;&#x7B26;&#x7C7B;&#x578B;</span>
+<span class="hljs-keyword">let</span> a = <span class="hljs-number">20</span>
+<span class="hljs-keyword">var</span> b = <span class="hljs-number">2.44</span>
+</code></pre>
+</li>
+<li><p>&#x57FA;&#x672C;&#x8FD0;&#x7B97;
+&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x624D;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x8FD0;&#x7B97;</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> m = <span class="hljs-number">20</span>
+<span class="hljs-keyword">let</span> n = <span class="hljs-number">10.5</span>
+
+<span class="hljs-comment">// let result = m + n &#x9519;&#x8BEF;</span>
+<span class="hljs-keyword">let</span> result1 = <span class="hljs-type">Double</span>(m) + n
+<span class="hljs-keyword">let</span> result2 = m + <span class="hljs-type">Int</span>(n)
+</code></pre>
+</li>
+<li><p>&#x903B;&#x8F91;&#x5206;&#x652F;</p>
+<ul>
+<li><p>if</p>
+<pre><code>let a= 10
+// &#x6CA1;&#x6709;&#x975E;&#x96F6;&#x5373;&#x771F;
+if a &gt; 0 {
+ print(&quot;a&#x5927;&#x4E8E;0&quot;)
+} else if a &lt; -10 {
+ pirnt(&quot;a&#x5C0F;&#x4E8E;0&quot;)
+}
+</code></pre></li>
+<li><p>guard</p>
+<pre><code>guard &#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F; else {
+ //&#x6761;&#x4EF6;&#x8BED;&#x53E5;
+ break
+}  
+&#x8BED;&#x53E5;&#x7EC4;
+</code></pre><pre><code>
+
+</code></pre></li>
+</ul>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -240,7 +282,7 @@ view.backgroundColor = <span class="hljs-type">UIColor</span>.blue
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.1 base.md","level":"1.2.1","depth":2,"previous":{"title":"1. Swift","level":"1.2","depth":1,"path":"swift/README.md","ref":"swift/README.md","articles":[{"title":"1.1 base.md","level":"1.2.1","depth":2,"path":"swift/base.md","ref":"swift/base.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"swift/base.md","mtime":"2020-05-05T14:41:08.319Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-05T14:41:52.657Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.1 base.md","level":"1.2.1","depth":2,"previous":{"title":"1. Swift","level":"1.2","depth":1,"path":"swift/README.md","ref":"swift/README.md","articles":[{"title":"1.1 base.md","level":"1.2.1","depth":2,"path":"swift/base.md","ref":"swift/base.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"swift/base.md","mtime":"2020-05-06T14:40:02.764Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T14:37:23.619Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
